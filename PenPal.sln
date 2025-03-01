@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenPal", "PenPal.csproj", "{BCF726ED-7DF2-438C-A02B-2DC56251E6EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCF726ED-7DF2-438C-A02B-2DC56251E6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF726ED-7DF2-438C-A02B-2DC56251E6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF726ED-7DF2-438C-A02B-2DC56251E6EA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BCF726ED-7DF2-438C-A02B-2DC56251E6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF726ED-7DF2-438C-A02B-2DC56251E6EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF726ED-7DF2-438C-A02B-2DC56251E6EA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58BF1600-D73C-46D0-9123-4B2776BF200F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PenPal.Views.SignInPage"
+             Title="Sign In"
+             nav:NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Center">
+
+            <!-- Enlarged Image with 'Penpal.' text included -->
+            <Image Source="banner.png" 
+                   HeightRequest="250" 
+                   Aspect="AspectFit" 
+                   HorizontalOptions="Center" />
+
+            <!-- Email Entry -->
+            <Entry x:Name="emailEntry" 
+                   Placeholder="Email" 
+                   Keyboard="Email" 
+                   HorizontalOptions="FillAndExpand" />
+
+            <!-- Password Entry -->
+            <Entry x:Name="passwordEntry" 
+                   Placeholder="Password" 
+                   IsPassword="True" 
+                   HorizontalOptions="FillAndExpand" />
+
+            <!-- Forgot Password Button -->
+            <Button Text="Forgot Password?" 
+                    BackgroundColor="Transparent" 
+                    TextColor="Blue" 
+                    HorizontalOptions="End" 
+                    Clicked="OnForgotPasswordClicked" />
+
+            <!-- Sign In Button -->
+            <Button Text="Sign In" 
+                    BackgroundColor="Blue" 
+                    TextColor="White" 
+                    HorizontalOptions="FillAndExpand" 
+                    Clicked="OnSignInClicked" />
+
+            <!-- Register Navigation -->
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label Text="Don't have an account?" />
+                <Button Text="Register Here" 
+                        BackgroundColor="Transparent" 
+                        TextColor="Blue" 
+                        Clicked="OnRegisterClicked" />
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
